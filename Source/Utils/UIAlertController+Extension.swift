@@ -28,7 +28,7 @@ extension UIAlertController {
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = UIViewController()
         window.backgroundColor = UIColor.clear
-        window.windowLevel = UIWindowLevelAlert
+        window.windowLevel = UIWindow.Level.alert
         
         if let rootVC = window.rootViewController {
             window.makeKeyAndVisible()
